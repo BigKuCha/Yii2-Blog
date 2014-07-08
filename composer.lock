@@ -170,12 +170,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "a34e52de4d5c95b4c1db448c298ce1ee9d8414c4"
+                "reference": "ddee04038f946ac103eb4e70c8eb7adeb2cf563b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/a34e52de4d5c95b4c1db448c298ce1ee9d8414c4",
-                "reference": "a34e52de4d5c95b4c1db448c298ce1ee9d8414c4",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/ddee04038f946ac103eb4e70c8eb7adeb2cf563b",
+                "reference": "ddee04038f946ac103eb4e70c8eb7adeb2cf563b",
                 "shasum": ""
             },
             "replace": {
@@ -213,7 +213,7 @@
                 "responsive",
                 "web"
             ],
-            "time": "2014-07-06 07:36:52"
+            "time": "2014-07-08 03:44:43"
         },
         {
             "name": "yiisoft/jquery",
@@ -270,12 +270,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "b978ac1ff96745063e0ab08a48ce429dbc51477e"
+                "reference": "642a0afd8638fcc59ca540af8a88326ec47a558c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/b978ac1ff96745063e0ab08a48ce429dbc51477e",
-                "reference": "b978ac1ff96745063e0ab08a48ce429dbc51477e",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/642a0afd8638fcc59ca540af8a88326ec47a558c",
+                "reference": "642a0afd8638fcc59ca540af8a88326ec47a558c",
                 "shasum": ""
             },
             "require": {
@@ -343,7 +343,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2014-07-05 16:07:46"
+            "time": "2014-07-07 15:24:21"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
