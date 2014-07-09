@@ -78,8 +78,8 @@ class AtcController extends MyController
      */
     public function actionCreate()
     {
-        $model = new Article('create');
-//        $model->scenario = "create";
+        $model = new Article();
+        $model->scenario = "create";
         if ($model->load(Yii::$app->request->post()))
         {
             $up = UploadedFile::getInstance($model, 'image');
