@@ -1,8 +1,21 @@
 Yii2-Blog
 ================================
 
-基于Yii2 basic版开发的简易blog程序。这是本人在学习Yii2过程中练习的小项目，其中有不合理的地方还请自行斟酌辨别！由于Yii2还没有正式发布，核心程序随时有可能改动，运行过程中可能会有报错！
+基于Yii2 basic版开发的简易blog程序。由于Yii2还没有正式发布，核心程序随时有可能改动，运行过程中可能会有报错！
 
+###  包含的内容
+这是本人在学习Yii2过程中练习的小项目，有些东西是为了应用而应用，姿势不一定优雅！仅供借鉴参考。  
+1.  ActiveRecord-CRUD  
+2.  模板传值  
+3.  Scopes  
+4.  关联查询  
+5.  分页  
+6.  登录  
+7.  外部Action  
+8.  事件&行为  
+9.  自定义小物件(Widget)  
+10.  文件缓存  
+11.  GridView & ListView  
 
 目录结构
 -------------------
@@ -53,34 +66,10 @@ return [
 
 ------------
 
-### Install from an Archive File
-
-Extract the archive file downloaded from [yiiframework.com](http://www.yiiframework.com/download/) to
-a directory named `basic` that is directly under the Web root.
-
-You can then access the application through the following URL:
-
-~~~
-http://localhost/basic/web/
-~~~
+### 关于Yii2
+Yii官方网站 [yiiframework.com](http://www.yiiframework.com)  
+Yii2仓库地址[yiisoft/yii2](https://github.com/yiisoft/yii2)
 
 
-### Install via Composer
-
-If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
-at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
-
-You can then install this application template using the following command:
-
-~~~
-php composer.phar create-project --prefer-dist --stability=dev yiisoft/yii2-app-basic basic
-~~~
-
-Now you should be able to access the application through the following URL, assuming `basic` is the directory
-directly under the Web root.
-
-~~~
-http://localhost/basic/web/
-~~~
 
 
