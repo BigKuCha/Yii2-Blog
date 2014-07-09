@@ -1,15 +1,10 @@
-Yii 2 Basic Application Template
+Yii2-Blog
 ================================
 
-Yii 2 Basic Application Template is a skeleton Yii 2 application best for
-rapidly creating small projects.
-
-The template contains the basic features including user login/logout and a contact page.
-It includes all commonly used configurations that would allow you to focus on adding new
-features to your application.
+基于Yii2 basic版开发的简易blog程序。这是本人在学习Yii2过程中练习的小项目，其中有不合理的地方还请自行斟酌辨别！由于Yii2还没有正式发布，核心程序随时有可能改动，运行过程中可能会有报错！
 
 
-DIRECTORY STRUCTURE
+目录结构
 -------------------
 
       assets/             contains assets definition
@@ -26,13 +21,36 @@ DIRECTORY STRUCTURE
 
 
 
-REQUIREMENTS
+安装
 ------------
 
-The minimum requirement by this application template that your Web server supports PHP 5.4.0.
+1.  直接运行`git clone https://github.com/BigKuCha/Yii2-Blog.git`克隆到工作目录，或者直接下载zip包
+2.  vendor目录是空的，请自行拷贝Yii核心文件到vendor目录
+3.  创建数据库 `myblog` 编码 `utf8-unicode-ci`
+4.  运行`yii migrate`或者导入根目录下的 `myblog.sql`
+
+配置
+-------------
+
+### 数据库
+
+配置 `config/db.php` :
+
+```php
+return [
+    'class' => 'yii\db\Connection',
+    'dsn' => 'mysql:host=localhost;dbname=myblog',
+    'username' => 'root',
+    'password' => '',
+    'charset' => 'utf8',
+];
+```
+###  Apache
+开启apache的rewite模块，网站根目录指向`web/`  
+**NOTE:** 如果不开启rewite，需要重新配置路由
 
 
-INSTALLATION
+
 ------------
 
 ### Install from an Archive File
@@ -66,23 +84,3 @@ http://localhost/basic/web/
 ~~~
 
 
-CONFIGURATION
--------------
-
-### Database
-
-Edit the file `config/db.php` with real data, for example:
-
-```php
-return [
-    'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
-    'username' => 'root',
-    'password' => '1234',
-    'charset' => 'utf8',
-];
-```
-
-**NOTE:** Yii won't create the database for you, this has to be done manually before you can access it.
-
-Also check and edit the other files in the `config/` directory to customize your application.
