@@ -32,10 +32,18 @@ class Column extends \yii\db\ActiveRecord
             [['columnname'], 'string', 'max' => 50]
         ];
     }
+    /**
+     * relation
+     * @return type
+     */
     public function getArticles()
     {
         return $this->hasMany(Article::className(), ['id'=>'columnid']);
     }
+    /**
+     * 为下拉菜单获取数据
+     * @return type
+     */
     public static function getcols()
     {
         $tmp = self::find()->select('id,columnname')->asArray()->all();

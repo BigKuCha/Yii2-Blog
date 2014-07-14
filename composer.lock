@@ -170,12 +170,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "ddee04038f946ac103eb4e70c8eb7adeb2cf563b"
+                "reference": "c3ae289f4a9e5fc14e489e3914d150954469f1ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/ddee04038f946ac103eb4e70c8eb7adeb2cf563b",
-                "reference": "ddee04038f946ac103eb4e70c8eb7adeb2cf563b",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/c3ae289f4a9e5fc14e489e3914d150954469f1ac",
+                "reference": "c3ae289f4a9e5fc14e489e3914d150954469f1ac",
                 "shasum": ""
             },
             "replace": {
@@ -213,7 +213,7 @@
                 "responsive",
                 "web"
             ],
-            "time": "2014-07-08 03:44:43"
+            "time": "2014-07-10 23:58:18"
         },
         {
             "name": "yiisoft/jquery",
@@ -270,12 +270,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "927c34d8628f366718f3fdeb97c92bcdf75798cb"
+                "reference": "8992c7d402b9dfd8c957772aaedea2827b8b342d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/927c34d8628f366718f3fdeb97c92bcdf75798cb",
-                "reference": "927c34d8628f366718f3fdeb97c92bcdf75798cb",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/8992c7d402b9dfd8c957772aaedea2827b8b342d",
+                "reference": "8992c7d402b9dfd8c957772aaedea2827b8b342d",
                 "shasum": ""
             },
             "require": {
@@ -343,7 +343,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2014-07-09 13:23:47"
+            "time": "2014-07-11 10:53:52"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -606,12 +606,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "7726fb52f1ba5680c21cd9e586a23ea88908101d"
+                "reference": "b42d638192bb9b4b7d7e73e747dfcda9db4d9985"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/7726fb52f1ba5680c21cd9e586a23ea88908101d",
-                "reference": "7726fb52f1ba5680c21cd9e586a23ea88908101d",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/b42d638192bb9b4b7d7e73e747dfcda9db4d9985",
+                "reference": "b42d638192bb9b4b7d7e73e747dfcda9db4d9985",
                 "shasum": ""
             },
             "require": {
@@ -643,7 +643,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2014-07-08 12:59:15"
+            "time": "2014-07-09 23:54:30"
         }
     ],
     "aliases": [],
