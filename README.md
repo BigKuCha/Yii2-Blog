@@ -38,7 +38,7 @@ Yii2-Blog
 ------------
 
 1.  直接运行`git clone https://github.com/BigKuCha/Yii2-Blog.git`克隆到工作目录，或者直接下载zip包
-2.  vendor目录是空的，请自行拷贝Yii核心文件到vendor目录
+2.  运行`composer update` 安装yii2核心文件
 3.  创建数据库 `myblog` 编码 `utf8-unicode-ci`
 4.  运行`yii migrate`或者导入根目录下的 `myblog.sql`
 
