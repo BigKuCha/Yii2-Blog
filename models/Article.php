@@ -32,7 +32,7 @@ class Article extends \yii\db\ActiveRecord
     {
         return [
             [['title', 'content', 'keywords', 'author','columnid'], 'required'],
-            ['image','required','on'=>'create'],
+            ['image','required','message'=>'图片不能为空','on'=>'create'],
             [['content'], 'string'],
             [['addtime','ishot','clicks'], 'safe'],
             [['title', 'keywords'], 'string', 'max' => 100],
