@@ -44,6 +44,11 @@ $config = [
                 '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
             ],
         ],
+        'request' => [
+            'enableCookieValidation' => true,
+            'enableCsrfValidation' => true,
+            'cookieValidationKey' => 'backend',
+        ],
     ],
     'params' => $params,
 ];

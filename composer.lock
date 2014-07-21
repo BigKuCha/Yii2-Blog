@@ -170,12 +170,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "c3ae289f4a9e5fc14e489e3914d150954469f1ac"
+                "reference": "a035ee59ae73510ebdb1064e59b4b16f1da9fc66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/c3ae289f4a9e5fc14e489e3914d150954469f1ac",
-                "reference": "c3ae289f4a9e5fc14e489e3914d150954469f1ac",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/a035ee59ae73510ebdb1064e59b4b16f1da9fc66",
+                "reference": "a035ee59ae73510ebdb1064e59b4b16f1da9fc66",
                 "shasum": ""
             },
             "replace": {
@@ -213,7 +213,7 @@
                 "responsive",
                 "web"
             ],
-            "time": "2014-07-10 23:58:18"
+            "time": "2014-07-20 05:11:07"
         },
         {
             "name": "yiisoft/jquery",
@@ -270,12 +270,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "8992c7d402b9dfd8c957772aaedea2827b8b342d"
+                "reference": "0639a7013b53d3d8640ee59e46808a290a31bff5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/8992c7d402b9dfd8c957772aaedea2827b8b342d",
-                "reference": "8992c7d402b9dfd8c957772aaedea2827b8b342d",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/0639a7013b53d3d8640ee59e46808a290a31bff5",
+                "reference": "0639a7013b53d3d8640ee59e46808a290a31bff5",
                 "shasum": ""
             },
             "require": {
@@ -343,7 +343,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2014-07-11 10:53:52"
+            "time": "2014-07-21 00:59:38"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -351,12 +351,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "5517eeac747ad628a79ed8b16f05ec1966ef1c12"
+                "reference": "5e10e2833b960662f74c591cebb7506095baea7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/5517eeac747ad628a79ed8b16f05ec1966ef1c12",
-                "reference": "5517eeac747ad628a79ed8b16f05ec1966ef1c12",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/5e10e2833b960662f74c591cebb7506095baea7b",
+                "reference": "5e10e2833b960662f74c591cebb7506095baea7b",
                 "shasum": ""
             },
             "require": {
@@ -376,9 +376,7 @@
             "authors": [
                 {
                     "name": "Qiang Xue",
-                    "email": "qiang.xue@gmail.com",
-                    "homepage": "http://www.yiiframework.com/",
-                    "role": "Founder and project lead"
+                    "email": "qiang.xue@gmail.com"
                 }
             ],
             "description": "The Twitter Bootstrap extension for the Yii framework",
@@ -386,7 +384,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2014-06-30 11:04:22"
+            "time": "2014-07-19 23:15:23"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -394,12 +392,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "47dbc7c4a323086ba96dc4a9c3ff85c9f08d2615"
+                "reference": "e5614b13ee4c30c1e322aaf95855140580bc109a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/47dbc7c4a323086ba96dc4a9c3ff85c9f08d2615",
-                "reference": "47dbc7c4a323086ba96dc4a9c3ff85c9f08d2615",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/e5614b13ee4c30c1e322aaf95855140580bc109a",
+                "reference": "e5614b13ee4c30c1e322aaf95855140580bc109a",
                 "shasum": ""
             },
             "require": {
@@ -421,9 +419,7 @@
             "authors": [
                 {
                     "name": "Qiang Xue",
-                    "email": "qiang.xue@gmail.com",
-                    "homepage": "http://www.yiiframework.com/",
-                    "role": "Founder and project lead"
+                    "email": "qiang.xue@gmail.com"
                 }
             ],
             "description": "The composer plugin for Yii extension installer",
@@ -432,7 +428,7 @@
                 "extension installer",
                 "yii2"
             ],
-            "time": "2014-07-03 12:33:09"
+            "time": "2014-07-19 19:39:03"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
@@ -606,12 +602,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "b42d638192bb9b4b7d7e73e747dfcda9db4d9985"
+                "reference": "c50b66be57b5b666c6f8e660e9d9b2948255a64d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/b42d638192bb9b4b7d7e73e747dfcda9db4d9985",
-                "reference": "b42d638192bb9b4b7d7e73e747dfcda9db4d9985",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/c50b66be57b5b666c6f8e660e9d9b2948255a64d",
+                "reference": "c50b66be57b5b666c6f8e660e9d9b2948255a64d",
                 "shasum": ""
             },
             "require": {
@@ -643,7 +639,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2014-07-09 23:54:30"
+            "time": "2014-07-17 16:31:56"
         }
     ],
     "aliases": [],
