@@ -47,7 +47,7 @@ $config = [
         'request' => [
             'enableCookieValidation' => true,
             'enableCsrfValidation' => true,
-            'cookieValidationKey' => 'backend',
+            'cookieValidationKey' => 'ijustdontknowwhattofix',
         ],
     ],
     'params' => $params,
@@ -60,6 +60,6 @@ if (YII_ENV_DEV) {
 
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = 'yii\gii\Module';
-}
+} 
 
 return $config;
