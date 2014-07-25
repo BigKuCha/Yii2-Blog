@@ -63,34 +63,6 @@ class SiteController extends MyController
             ],
         ];
     }
-    public function actionTest()
-    {
-        /*$a = new Article;
-        $a->on(\yii\db\ActiveRecord::EVENT_AFTER_FIND, function (){//没作用
-            echo '***********';exit;
-        });
-        $info = $a->find()->one();*/
-//        print_r($info);
-        
-//        $this->on('beforesay', function (){
-//            echo 123;exit;
-//        });
-//        $this->say();
-        
-//        $this->on(self::EVENT_BEFORE_ACTION, function (){
-//            echo 11;exit; 
-//        });
-//        $this->on(self::EVENT_AFTER_ACTION, function (){
-//            echo 11;exit; 
-//        });
-//        //        $this->say();exit;
-////        $info = Article::findOne(2)->attributes;
-////        $info = Article::find()->where(['ishot'=>1])->indexBy('title')->all();
-////        $info = Article::findBySql("select * from t_article")->all();
-//        $info = Article::find()->where(['id'=>1])->asArray()->one();
-//        $info = Article::findOne(1)->attributes;
-//        StringHelper::dump($info);
-    }
     /**
      * 首页
      * @return type
