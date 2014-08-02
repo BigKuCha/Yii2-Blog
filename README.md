@@ -16,6 +16,7 @@ Yii2-Blog
 9.  自定义小物件(Widget)  
 10.  文件缓存  
 11.  GridView & ListView  
+12.  Asset配置
 
 目录结构
 -------------------
