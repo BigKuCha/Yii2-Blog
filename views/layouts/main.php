@@ -17,9 +17,6 @@ AppAsset::register($this);
 <title><?= Html::encode($this->title) ?></title>
 <meta name="keywords" content="个人博客模板,博客模板" />
 <meta name="description" content="寻梦主题的个人博客模板，优雅、稳重、大气,低调。" />
-<!--[if lt IE 9]>
-<script src="js/modernizr.js"></script>
-<![endif]-->
 <?php $this->head() ?>
 </head>
 <body>
@@ -43,7 +40,7 @@ AppAsset::register($this);
 </header>
     <?= $content ?>
 <footer>
-  <p>Design by DanceSmile <a href="http://www.miitbeian.gov.cn/" target="_blank">蜀ICP备11002373号-1</a> <a href="/">网站统计</a></p>
+  <p>Design by DanceSmile <a href="" target="_blank">蜀ICP备11002373号-1</a> <a href="/">网站统计</a></p>
 </footer>
 
 <?php $this->endBody() ?>
