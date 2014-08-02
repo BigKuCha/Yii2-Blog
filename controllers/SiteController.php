@@ -69,7 +69,6 @@ class SiteController extends MyController
      */
     public function actionIndex()
     {
-
 //        $list = Article::find()->hot()->with('columns')->limit(5)->orderBy('addtime desc')->all();
         $list = Article::find()->hot()->limit(5)->orderBy('addtime desc')->all();
         return $this->render('index',['list'=>$list]);
@@ -96,7 +95,7 @@ class SiteController extends MyController
      * 关于我
      * @return type
      */
-    public function actionAboutme()
+    public function actionAbout()
     {
         return $this->render('about',[]);
     }
@@ -165,10 +164,5 @@ class SiteController extends MyController
                 'model' => $model,
             ]);
         }
-    }
-
-    public function actionAbout()
-    {
-        return $this->render('about');
     }
 }
